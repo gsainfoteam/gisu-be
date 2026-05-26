@@ -6,7 +6,6 @@ generator client {
 
 datasource db {
   provider = "postgresql" 
-  url      = env("DATABASE_URL")
 }
 
 // 1. 과목 (Course)
@@ -26,8 +25,7 @@ model Section {
   instructor   String
   maxCapacity  Int
   currentSeats Int          @default(0)
-  timeSlots    String[]  // 하나의 분반은 여러 시간표 슬롯을 가짐 (1:N)
-
+  timeSlots    TimeSlot[]
   // Course와의 관계 (N:1)
   courseId     Int
   course       Course       @relation(fields: [courseId], references: [id], onDelete: Cascade)

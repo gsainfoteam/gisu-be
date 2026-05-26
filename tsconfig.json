@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "resolvePackageJsonExports": true,
@@ -15,6 +16,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
+    "types": ["node"],
     "skipLibCheck": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
