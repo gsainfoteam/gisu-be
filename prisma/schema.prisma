@@ -1,13 +1,63 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
+// prisma/schema.prisma
 
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "postgresql" 
+  url      = env("DATABASE_URL")
+}
+
+// 1. 과목 (Course)
+model Course {
+  id       Int       @id @default(autoincrement())
+  code     String    @unique
+  title    String
+  type     String
+  credit   Int
+  sections Section[] // 하나의 과목은 여러 분반을 가짐 (1:N)
+}
+
+// 2. 개설 분반 (Section)
+model Section {
+  id           Int          @id @default(autoincrement())
+  sectionNo    String
+  instructor   String
+  maxCapacity  Int
+  currentSeats Int          @default(0)
+  timeSlots    String[]  // 하나의 분반은 여러 시간표 슬롯을 가짐 (1:N)
+
+  // Course와의 관계 (N:1)
+  courseId     Int
+  course       Course       @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  enrollments  Enrollment[] // 수강신청 내역과 연결
+}
+
+// 3. 시간표 (TimeSlot) - 예: "A3", "B1" 등
+model TimeSlot {
+  id        Int     @id @default(autoincrement())
+  slotCode  String
+  
+  // Section과의 관계 (N:1)
+  sectionId Int
+  section   Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+}
+
+// 4. 익명 접속자 (User)
+model User {
+  id          Int          @id @default(autoincrement())
+  token       String       @unique // UUID 발급용
+  enrollments Enrollment[] // 한 유저가 담은 여러 수강신청 내역 (1:N)
+}
+
+// 5. 수강신청 내역 (Enrollment) - 다대다(M:N) 중간 테이블
+model Enrollment {
+  id        Int     @id @default(autoincrement())
+  
+  userId    Int
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  sectionId Int
+  section   Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
 }
