@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
-import { PrismaService } from '../prisma-client/prisma-client.service';
+import { PrismaClientService } from '../prisma-client/prisma-client.service';
 import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
 export class UsersService {
-  constructor(private prisma: PrismaService) {}
+  constructor(private prisma: PrismaClientService) {}
 
   async createGuestUser() {
     const newToken = uuidv4(); // 예: '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
