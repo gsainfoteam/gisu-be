@@ -8,7 +8,7 @@ export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @Post('session')
-  @ApiOperation({ summary: '임시 유저 토큰 발급', description: '접속 시 최초 1회 호출하여 UUID를 발급받습니다.' })
+  @ApiOperation({ summary: '임시 유저 토큰 발급', description: '최초 접속 시 호출하여 UUID 토큰을 발급받습니다.' })
   createSession() {
     return this.usersService.createGuestUser();
   }

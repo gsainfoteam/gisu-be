@@ -1,0 +1,67 @@
+﻿code,title,type,CREDIT,section,instructor,max_capacity,timetable_data,timetable
+GS1001,Single Variable Calculus and Applications,M,3,1,Min Ki Kim,90,B01|B02|B03|B20|B21|D01|D02|D03,TUE 09:00~10:30 | TUE 18:30~19:30 | THU 09:00~10:30
+GS1001,Single Variable Calculus and Applications,M,3,2,Jung Rye Park,50,A04|A05|A06|C04|C05|C06|E01|E02,MON 10:30~12:00 | WED 10:30~12:00 | FRI 09:00~10:00
+GS1001,Single Variable Calculus and Applications,M,3,3,Jung Rye Park,50,A09|A10|A11|C09|C10|C11|E03|E04,MON 13:00~14:30 | WED 13:00~14:30 | FRI 10:00~11:00
+GS1001,Single Variable Calculus and Applications,M,3,4,Jung Rye Park,50,A12|A13|A14|C12|C13|C14|E05|E06,MON 14:30~16:00 | WED 14:30~16:00 | FRI 11:00~12:00
+GS2001,Multivariable Calculus and Applications,M,3,1,Jung Rye Park,60,B09|B10|B11|B18|B19|D09|D10|D11,TUE 13:00~14:30 | TUE 17:30~18:30 | THU 13:00~14:30
+GS2002,Differential Equations and Applications,M,3,1,Dongsu Kim,50,A12|A13|A14|A18|A19|C12|C13|C14,MON 14:30~16:00 | MON 17:30~18:30 | WED 14:30~16:00
+GS2004,Introduction to Linear Algebra and Applications 1,M,3,1,Jeongok Choi,50,B04|B05|B06|D04|D05|D06|D18|D19,TUE 10:30~12:00 | THU 10:30~12:00 | THU 17:30~18:30
+GS2004,Introduction to Linear Algebra and Applications 1,M,3,2,Hyeonseok Kang,50,B12|B13|B14|D12|D13|D14|D20|D21,TUE 14:30~16:00 | THU 14:30~16:00 | THU 18:30~19:30
+GS1101,General Physics & Rec. I,M,3,1,Chanyong Park,40,A09|A10|A11|A21|A22|A23|C09|C10|C11,MON 13:00~14:30 | MON 19:00~20:30 | WED 13:00~14:30
+GS1101,General Physics & Rec. I,M,3,2,Chanyong Park,40,A12|A13|A14|C12|C13|C14|C21|C22|C23,MON 14:30~16:00 | WED 14:30~16:00 | WED 19:00~20:30
+GS1101,General Physics & Rec. I,M,3,3,Hyunseok Yang,40,B04|B05|B06|B21|B22|B23|D04|D05|D06,TUE 10:30~12:00 | TUE 19:00~20:30 | THU 10:30~12:00
+GS1101,General Physics & Rec. I,M,3,4,Hyunseok Yang,40,B09|B10|B11|C21|C22|C23|D09|D10|D11,TUE 13:00~14:30 | WED 19:00~20:30 | THU 13:00~14:30
+GS1101,General Physics & Rec. I,M,3,5,Hyunseok Yang,40,B12|B13|B14|D12|D13|D14|D21|D22|D23,TUE 14:30~16:00 | THU 14:30~16:00 | THU 19:00~20:30
+GS1103,General Physics & Rec. I – Honors,M,3,1,Unjong Yoo,35,B09|B10|B11|B21|B22|B23|D09|D10|D11,TUE 13:00~14:30 | TUE 19:00~20:30 | THU 13:00~14:30
+GS1111,General Physics Experiment I,M,1,1,Yongju Do / Seungu Lee,10,A04|A05|A06|A07,MON 10:30~12:30
+GS1111,General Physics Experiment I,M,1,2,Yongju Do / Seungu Lee,10,A15|A16|A17|A18,MON 16:00~18:00
+GS1111,General Physics Experiment I,M,1,3,Yongju Do / Seungu Lee,10,B04|B05|B06|B07,TUE 10:30~12:30
+GS1111,General Physics Experiment I,M,1,4,Yongju Do / Seungu Lee,10,B15|B16|B17|B18,TUE 16:00~18:00
+GS1111,General Physics Experiment I,M,1,5,Yongju Do / Seungu Lee,10,C04|C05|C06|C07,WED 10:30~12:30
+GS1111,General Physics Experiment I,M,1,6,Yongju Do / Seungu Lee,10,C15|C16|C17|C18,WED 16:00~18:00
+GS1111,General Physics Experiment I,M,1,7,Yongju Do / Seungu Lee,10,D04|D05|D06|D07,THU 10:30~12:30
+GS1111,General Physics Experiment I,M,1,8,Yongju Do / Seungu Lee,10,E03|E04|E05|E06,FRI 10:00~12:00
+GS1111,General Physics Experiment I,M,1,9,Yongju Do / Seungu Lee,10,E09|E10|E11|E12,FRI 13:00~15:00
+GS1111,General Physics Experiment I,M,1,10,Yongju Do / Seungu Lee,10,E15|E16|E17|E18,FRI 16:00~18:00
+GS1201,General Chemistry & Rec. I,M,3,1,Jiaojie Li,40,B04|B05|B06|B20|B21|D04|D05|D06,TUE 10:30~12:00 | TUE 18:30~19:30 | THU 10:30~12:00
+GS1201,General Chemistry & Rec. I,M,3,2,Jiaojie Li,40,B09|B10|B11|D09|D10|D11|D18|D19,TUE 13:00~14:30 | THU 13:00~14:30 | THU 17:30~18:30
+GS1201,General Chemistry & Rec. I,M,3,3,Jiaojie Li,40,B12|B13|B14|D12|D13|D14|D18|D19,TUE 14:30~16:00 | THU 14:30~16:00 | THU 17:30~18:30
+GS1201,General Chemistry & Rec. I,M,3,4,Junho Choi,40,A01|A02|A03|A19|A20|C01|C02|C03,MON 09:00~10:30 | MON 18:00~19:00 | WED 09:00~10:30
+GS1201,General Chemistry & Rec. I,M,3,5,Junho Choi,40,A04|A05|A06|A21|A22|C04|C05|C06,MON 10:30~12:00 | MON 19:00~20:00 | WED 10:30~12:00
+GS1211,General Chemistry Experiment I,M,1,1,Hojae Lee Chunsil Cho,18,A04|A05|A06|A07,MON 10:30~12:30
+GS1211,General Chemistry Experiment I,M,1,2,Junho Choi Chunsil Cho,28,A15|A16|A17|A18,MON 16:00~18:00
+GS1211,General Chemistry Experiment I,M,1,3,Hojae Lee Chunsil Cho,18,B04|B05|B06|B07,TUE 10:30~12:30
+GS1211,General Chemistry Experiment I,M,1,4,Junho Choi Chunsil Cho,18,B15|B16|B17|B18,TUE 16:00~18:00
+GS1211,General Chemistry Experiment I,M,1,5,Hojae Lee Chunsil Cho,18,C04|C05|C06|C07,WED 10:30~12:30
+GS1211,General Chemistry Experiment I,M,1,6,Junho Choi Chunsil Cho,18,C15|C16|C17|C18,WED 16:00~18:00
+GS1211,General Chemistry Experiment I,M,1,7,Junho Choi Chunsil Cho,18,D04|D05|D06|D07,THU 10:30~12:30
+GS1211,General Chemistry Experiment I,M,1,8,Junho Choi Chunsil Cho,18,E03|E04|E05|E06,FRI 10:00~12:00
+GS1211,General Chemistry Experiment I,M,1,9,Junho Choi Chunsil Cho,18,E13|E14|E15|E16,FRI 15:00~17:00
+GS1301,Biology,M,3,1,Yunhyeon Heo,3,B04|B05|B06|D04|D05|D06,TUE 10:30~12:00 | THU 10:30~12:00
+GS1301,Biology,M,3,2,Yunhyeon Heo,27,B09|B10|B11|D09|D10|D11,TUE 13:00~14:30 | THU 13:00~14:30
+GS1302,Human Biology,M,3,1,Yunhyeon Heo,2,A09|A10|A11|C09|C10|C11,MON 13:00~14:30 | WED 13:00~14:30
+GS1311,General Biology Laboratory,M,1,1,Yeongjun Kim / Gyeongrae Cho / Hana Kim,4,B15|B16|B17|B18,TUE 16:00~18:00
+GS1311,General Biology Laboratory,M,1,2,Yeongjun Kim / Gyeongrae Cho / Hana Kim,4,C15|C16|C17|C18,WED 16:00~18:00
+GS1311,General Biology Laboratory,M,1,3,Yeongjun Kim / Gyeongrae Cho / Hana Kim,0,E03|E04|E05|E06,FRI 10:00~12:00
+GS1311,General Biology Laboratory,M,1,4,Yeongjun Kim / Gyeongrae Cho / Hana Kim,4,E11|E12|E13|E14,FRI 14:00~16:00
+GS1311,General Biology Laboratory,M,1,5,Yeongjun Kim / Gyeongrae Cho / Hana Kim,4,C04|C05|C06|C07,WED 10:30~12:30
+GS1401,Computer Programming,M,3,1,Brian J. d'Auriol,60,A04|A05|A06|C04|C05|C06|D04|D05|D06,MON 10:30~12:00 | WED 10:30~12:00 | THU 10:30~12:00
+GS1401,Computer Programming,M,3,2,Brian J. d'Auriol,60,A04|A05|A06|C04|C05|C06|D04|D05|D06,MON 10:30~12:00 | WED 10:30~12:00 | THU 10:30~12:00
+GS1401,Computer Programming,M,3,3,Brian J. d'Auriol,60,A04|A05|A06|C04|C05|C06|E09|E10|E11|E12|E13|E14,MON 10:30~12:00 | WED 10:30~12:00 | FRI 13:00~16:00
+GS1401,Computer Programming,M,3,4,Suman Pandey,60,A09|A10|A11|C09|C10|C11|E09|E10|E11|E12|E13|E14,MON 13:00~14:30 | WED 13:00~14:30 | FRI 13:00~16:00
+GS1401,Computer Programming,M,3,5,Suman Pandey,60,A09|A10|A11|C09|C10|C11|E09|E10|E11|E12|E13|E14,MON 13:00~14:30 | WED 13:00~14:30 | FRI 13:00~16:00
+GS1401,Computer Programming,M,3,6,Suman Pandey,60,A09|A10|A11|C09|C10|C11|E09|E10|E11|E12|E13|E14,MON 13:00~14:30 | WED 13:00~14:30 | FRI 13:00~16:00
+GS1512,Writing I: Academic Writing,M,3,1,Seoyun Choi,30,B04|B05|B06|D04|D05|D06,TUE 10:30~12:00 | THU 10:30~12:00
+GS1512,Writing I: Academic Writing,M,3,2,Seoyun Choi,30,B09|B10|B11|D09|D10|D11,TUE 13:00~14:30 | THU 13:00~14:30
+GS1512,Writing I: Academic Writing,M,3,3,Seoyun Choi,35,B01|B02|B03|D01|D02|D03,TUE 09:00~10:30 | THU 09:00~10:30
+GS1513,Writing I: Creative Writing,M,3,1,Sujeong Lee,30,A01|A02|A03|C01|C02|C03,MON 09:00~10:30 | WED 09:00~10:30
+GS1532,Writing II: Reading the Classics & Writing,M,3,1,Seoyun Choi,20,A09|A10|A11|C09|C10|C11,MON 13:00~14:30 | WED 13:00~14:30
+GS1607,English I: Academic Discourse,M,2,1,Reece Randall,16,A01|A02|A03|C01|C02|C03,MON 09:00~10:30 | WED 09:00~10:30
+GS1607,English I: Academic Discourse,M,2,2,David Wills,16,A01|A02|A03|C01|C02|C03,MON 09:00~10:30 | WED 09:00~10:30
+GS1607,English I: Academic Discourse,M,2,3,Reece Randall,16,A04|A05|A06|C04|C05|C06,MON 10:30~12:00 | WED 10:30~12:00
+GS1607,English I: Academic Discourse,M,2,4,Rebecca Bae,16,A09|A10|A11|C09|C10|C11,MON 13:00~14:30 | WED 13:00~14:30
+GS1607,English I: Academic Discourse,M,2,5,Reece Randall,16,A12|A13|A14|C12|C13|C14,MON 14:30~16:00 | WED 14:30~16:00
+GS1607,English I: Academic Discourse,M,2,6,Rebecca Bae,16,B01|B02|B03|D01|D02|D03,TUE 09:00~10:30 | THU 09:00~10:30
+GS1607,English I: Academic Discourse,M,2,7,David Wills,16,B04|B05|B06|D04|D05|D06,TUE 10:30~12:00 | THU 10:30~12:00
+GS1607,English I: Academic Discourse,M,2,8,Rebecca Bae,16,B04|B05|B06|D04|D05|D06,TUE 10:30~12:00 | THU 10:30~12:00
+GS1607,English I: Academic Discourse,M,2,9,David Wills,16,B09|B10|B11|D09|D10|D11,TUE 13:00~14:30 | THU 13:00~14:30
